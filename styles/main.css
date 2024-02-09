@@ -1,0 +1,13 @@
+.page {
+    background-color: #7F27FF;
+    display: flex;
+    justify-content: space-between;
+
+}
+.list{
+    background-color: azure;
+    border: 20px;
+    padding: 20px;
+    margin: 20 px;
+    margin-bottom: 40px;
+}

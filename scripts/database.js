@@ -135,3 +135,9 @@ const database = {
  export const getDocks = () => {
     return database.docks.map(dock => ({...dock}))
  }
+ export const getHaulers = () => {
+    return database.haulers.map(hauler => ({...hauler}))
+ }
+ export const getShips = () => {
+    return database.ships.map(ship => ({...ship}))
+ }
